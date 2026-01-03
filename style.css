@@ -1,0 +1,47 @@
+body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, hsl(35, 100%, 91%), hsl(15, 94%, 81%));
+            text-align: center;
+            padding: 50px;
+            color: #333;
+        }
+        h1 {
+            font-size: 3em;
+            color: #ff6b6b;
+            animation: bounce 2s infinite;
+        }
+        @keyframes bounce {
+            0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+            40% { transform: translateY(-10px); }
+            60% { transform: translateY(-5px); }
+        }
+        .message {
+            font-size: 1.5em;
+            margin: 20px 0;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+        img {
+            max-width: 300px;
+            border-radius: 10px;
+            margin: 20px 0;
+        }
+        button {
+            background:hsl(35, 100%, 91%);
+            color: hsl(15, 94%, 81%);
+            border: 20px;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            cursor: pointer;
+            border-radius: 20px;
+        }
+        button:hover {
+            background:hsl(0, 0%, 100%);
+        }
+        html{
+            scroll-behavior: smooth;
+        }
+        #surpriseSection{
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
